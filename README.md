@@ -19,11 +19,11 @@ O script:
 3. Executa as views:
    - `Viewpf` (PF)
    - `viewpj` (PJ)
-4. Exporta o resultado para dois arquivos CSV:
+4. Exporta o resultado para dois arquivos CSV para o WinScp:
 
 ```text
-\\fs01\ITAPEVA ATIVAS\DADOS\Base Nova Vida\NV_PF.csv
-\\fs01\ITAPEVA ATIVAS\DADOS\Base Nova Vida\NV_PJ.csv
+\\/preambulo/atualizacao/pf\NV_PF.csv
+\\/preambulo/atualizacao/pj\NV_PJ.csv
 Os arquivos são sempre sobrescritos, usando:
 
 separador: ;
@@ -31,6 +31,11 @@ separador: ;
 encoding: utf-8-sig
 
 \\
+```
+
+Alem tambem de salvar um log:
+```text
+/preambulo/atualizacao/Logs
 ```
 ## 🔐 Segurança
 
